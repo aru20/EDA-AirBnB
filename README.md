@@ -15,9 +15,9 @@ Table of contents
 2.3 Accommodates (number of people)
 3. Advice to the municipality of Amsterdam
 3.1 Finding possibly illegal hotels
-3.2 Unwanted effects of professional hosts
+3.2 Unwanted Effects of professional hosts
 4. Advice to the tourists
-4.1 Average daily price per neighbourhood
+4.1 Average daily price per neighborhood
 4.2 Neighbourhood safety
 4.3 Review scores location, and location scores versus price
 4.4 How to use review scores
@@ -28,18 +28,38 @@ Table of contents
 
 ## 1. Introduction
 Airbnb is an online platform that allows individuals to rent out their properties, such as apartments, houses, or rooms, to travelers looking for accommodation.The platform connects hosts and guests by providing a user-friendly website and mobile app where hosts can list their available properties, set their own rental prices, and provide details about the accommodations. Guests can search for and book these properties based on their preferences, travel dates, and desired location.Airbnb also offers a review system where hosts and guests can rate and review each other based on their experiences. This helps build trust and transparency within the community and allows both parties to make informed decisions when booking or hosting.
-There are many factors which influence the price of a listing. Which is why we aim to find the most important factors that affect the price and more importantly the features that is common among the most expensive listings. This will allow an aspiring AirBnb host to ensure that his listing is equipped with those important features such that he will be able to charge a higher price without losing customers. Moreover, a traveller will also know the factors to look into to get the lowest price possible while having certain features he prefers.
-Exploring Airbnb data sets will give us many valuable insights regarding customer behavoiur, booking pattern and most popular destinations and so on.
-* Understanding Customer behaviour: 
-Some questions we can ask to help us explore the data are:
+There are many factors that influence the price of a listing. This is why we aim to find the most important factors that affect the price and, more importantly, the features that are common among the most expensive listings. This will allow an aspiring Airbnb host to ensure that his listing is equipped with those important features such that he will be able to charge a higher price without losing customers. Moreover, a traveler will also know the factors to look into to get the lowest price possible while having certain features he prefers.
+Exploring Airbnb data sets will give us many valuable insights regarding customer behavior, booking pattern, and most popular destinations, and so on.
 
-* What are the features/facilities/ammenities of a property that affect its price?
-* What is the demand patterns, seasonal fluctuations, and other factors that affect pricing?
-* How we can enhance user experiances?
-* What are the popular neighborhoods in SanFransico , and what are the property types that are in high demand?
-* 
+* #### Understanding Customer behavior:
+  By analyzing Airbnb reservation data, we can get insights into customer preferences, booking patterens and behaviour. This information will help us to understand what attracts     
+  guests, their booking habits, popular locations, and factors that influence their decissions making process.This insights will help us to establish marketing strategies, pricing 
+  decisions and property management practices.
+* #### Optimizing pricing and revenue management:
+  By analyzing the reservation data we will be able to identify the demand pattenrns, seasonal fluctions, and other factors that affect the priceing. By understanding the market 
+  dynamics, we can optimizeour pricing strategy maximize revenue and occupency rates. The host may maxmize the revenue by adjusting price based on demands,seasonality  or adding some   on demand amenities. 
+* #### Enhancing Guest Experiances:
+  By analyzing the reviews and feedback we can get valuable informationsregarding guests preferences.By making adjustments based on feedback to ensure guest satisfaction and increase 
+  positive reviews.
+* #### Identify market trends:
+  By analyzing the reservation data, we can identify popular neighbourhoods, high demand property type. This will help the host to make informed decission regarding property 
+  investments and targeting specific market segments.
+* #### Operational efficiency and resource allocation:
+  Analyzing reservation data can help us optimize our operations and resource allocation. By identifying peak booking periods, we can allocate staff and resources accordingly, 
+  ensuring smooth operations during busy times.
+* #### Fraud detection and risk mitigation:
+  Analyzing reservation data can help us to identify potential fraudulent activities or suspicious behavior. By monitoring patterns and anomalies in the data, we can detect and 
+  mitigate risks associated with fraudulent bookings, unauthorized guests, or property damage. This can help you ensure the safety and security of your properties and guests.
+
+In our exploratory analysis we will focous on the below questions.
+
+* What are the features/facilities/amenities of a property that affect its price?
+* What are the demand patterns, seasonal fluctuations, and other factors that affect pricing?
+* How we can enhance user experiences?
+* What are the popular neighborhoods in SanFransico, and what are the property types that are in high demand?
+
 ## 2. Dataset Description: 
-This is an Airbnb data set taken from [InsideAirbnb](http://insideairbnb.com/get-the-data/.) We used the Airbnb dataset for SanFransico and analysed the listings in SanFransico. The data is as of 03/06/2023.
+This is an Airbnb data set taken from [InsideAirbnb](http://insideairbnb.com/get-the-data/.) We used the Airbnb dataset for San Francisco and analyzed the listings in SanFransico. The data is as of June 3, 2023.
 
 ### 2.1 Data Dictionary
 
